@@ -286,7 +286,7 @@ require_once 'language.php';
                                                 </span>
                                             </div>
                                             <h3><?= $langArr['Specification_Planning'] ?></h3>
-                                            <p><?= $langArr['lorem_ipsum'] ?></p>
+                                            <!-- <p><?= $langArr['lorem_ipsum'] ?></p> -->
                                         </div>
                                     </li>
                                     <li>
@@ -302,7 +302,7 @@ require_once 'language.php';
                                                 </span>
                                             </div>
                                             <h3><?= $langArr['Estimates_Timelines'] ?></h3>
-                                            <p><?= $langArr['lorem_ipsum'] ?></p>
+                                            <!-- <p><?= $langArr['lorem_ipsum'] ?></p> -->
                                         </div>
                                     </li>
                                     <li>
@@ -319,7 +319,7 @@ require_once 'language.php';
                                                 </span>
                                             </div>
                                             <h3><?= $langArr['Design_Wireframe_Prototype'] ?>Design, Wireframe & Prototype</h3>
-                                            <p><?= $langArr['lorem_ipsum'] ?></p>
+                                            <!-- <p><?= $langArr['lorem_ipsum'] ?></p> -->
                                         </div>
                                     </li>
                                 </ul>
@@ -346,7 +346,7 @@ require_once 'language.php';
                                                 </span>
                                             </div>
                                             <h3><?= $langArr['build'] ?></h3>
-                                            <p><?= $langArr['lorem_ipsum'] ?></p>
+                                            <!-- <p><?= $langArr['lorem_ipsum'] ?></p> -->
                                         </div>
                                     </li>
                                     <li>
@@ -369,7 +369,7 @@ require_once 'language.php';
                                                 </span>
                                             </div>
                                             <h3><?= $langArr['test'] ?></h3>
-                                            <p><?= $langArr['lorem_ipsum'] ?></p>
+                                            <!-- <p><?= $langArr['lorem_ipsum'] ?></p> -->
                                         </div>
                                     </li>
                                     <li>
@@ -388,7 +388,7 @@ require_once 'language.php';
                                                 </span>
                                             </div>
                                             <h3><?= $langArr['launch'] ?></h3>
-                                            <p><?= $langArr['lorem_ipsum'] ?></p>
+                                            <!-- <p><?= $langArr['lorem_ipsum'] ?></p> -->
                                         </div>
                                     </li>
                                 </ul>
