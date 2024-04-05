@@ -44,36 +44,24 @@ $langArr = [
     'PHASE_A' => 'Fase  A',
 
     'Specification_Planning' => 'Spesifikasjon & Planlegging',
-    'Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incidi_dunt_ut_labore_et_dolore_magna_aliqua_enimad_min' => 'Lorem ipsum dolor sit amet, consectetur adipiscing
-    elit, sed do eiusmod tempor incidi dunt ut labore et
-    dolore magna aliqua. enim ad min',
+    'planning_descrp' => 'We help to  plan and outline the details for making websites and mobile apps.',
 
     'Estimates_Timelines' => 'Estimater & Tidslinjer',
-    'Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incidi_dunt_ut_labore_et_dolore_magna_aliqua_enimad_min' => 'Lorem ipsum dolor sit amet, consectetur adipiscing
-    elit, sed do eiusmod tempor incidi dunt ut labore et
-    dolore magna aliqua. enim ad min',
+    'timelines_descrp' => 'Providing timelines and cost estimates tailored to your projects, ensuring efficient delivery and client satisfaction.',
 
     'Design_Wireframe_Prototype' => 'Design, Wireframe & Prototyp',
-    'Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incidi_dunt_ut_labore_et_dolore_magna_aliqua_enimad_min' => 'Lorem ipsum dolor sit amet, consectetur adipiscing
-    elit, sed do eiusmod tempor incidi dunt ut labore et
-    dolore magna aliqua. enim ad min',
+    'prototype_descrp' => 'Crafting captivating designs, wireframes, and prototypes to elevate your project with creativity and precision.',
 
     'PHASE_B' => 'Fase B',
 
     'build' => 'Bygge',
-    'Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incidi_dunt_ut_labore_et_dolore_magna_aliqua_enimad_min' => 'Lorem ipsum dolor sit amet, consectetur adipiscing
-    elit, sed do eiusmod tempor incidi dunt ut labore et
-    dolore magna aliqua. enim ad min',
+    'build_descrp' => 'We use our tech skills to build what you imagine.',
 
     'test' => 'Test',
-    'Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incidi_dunt_ut_labore_et_dolore_magna_aliqua_enimad_min' => 'Lorem ipsum dolor sit amet, consectetur adipiscing
-    elit, sed do eiusmod tempor incidi dunt ut labore et
-    dolore magna aliqua. enim ad min',
+    'test_descrp' => 'We test what we make to ensure it works well.',
 
     'launch' => 'Lansere',
-    'Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incidi_dunt_ut_labore_et_dolore_magna_aliqua_enimad_min' => 'Lorem ipsum dolor sit amet, consectetur adipiscing
-    elit, sed do eiusmod tempor incidi dunt ut labore et
-    dolore magna aliqua. enim ad min',
+    'launch_descrp' => 'Etter utrettelig innsats lanserer vi stolt applikasjonen og nettstedet du har lengt etter.',
     'calendar' => 'Kalender',
     'Book_a' => 'Bestill en',
     'consultation' => 'konsultasjon',

@@ -52,7 +52,7 @@ require_once 'language.php';
                         <div class="langue-main">
                             <div class="select-box">
                                 <select onchange="languageChanged()" id="languageSelect" class="selectpicker select2" title="Select Language">
-                                    <option value="en"><?= $langArr['Select_Language'] ?></option>
+                                    <!-- <option value="en"><?= $langArr['Select_Language'] ?></option> -->
                                     <option value="en" <?= ($lang == 'en') ? 'selected' : '' ?>>English</option>
                                     <option value="sv" <?= ($lang == 'sv') ? 'selected' : '' ?>>Swedish</option>
                                     <option value="no" <?= ($lang == 'no') ? 'selected' : '' ?>>Norwegian</option>
@@ -286,7 +286,7 @@ require_once 'language.php';
                                                 </span>
                                             </div>
                                             <h3><?= $langArr['Specification_Planning'] ?></h3>
-                                            <!-- <p><?= $langArr['lorem_ipsum'] ?></p> -->
+                                            <p><?= $langArr['planning_descrp'] ?></p>
                                         </div>
                                     </li>
                                     <li>
@@ -302,7 +302,7 @@ require_once 'language.php';
                                                 </span>
                                             </div>
                                             <h3><?= $langArr['Estimates_Timelines'] ?></h3>
-                                            <!-- <p><?= $langArr['lorem_ipsum'] ?></p> -->
+                                            <p><?= $langArr['timelines_descrp'] ?></p>
                                         </div>
                                     </li>
                                     <li>
@@ -318,8 +318,8 @@ require_once 'language.php';
                                                     </svg>
                                                 </span>
                                             </div>
-                                            <h3><?= $langArr['Design_Wireframe_Prototype'] ?>Design, Wireframe & Prototype</h3>
-                                            <!-- <p><?= $langArr['lorem_ipsum'] ?></p> -->
+                                            <h3><?= $langArr['Design_Wireframe_Prototype'] ?></h3>
+                                            <p><?= $langArr['prototype_descrp'] ?></p>
                                         </div>
                                     </li>
                                 </ul>
@@ -346,7 +346,7 @@ require_once 'language.php';
                                                 </span>
                                             </div>
                                             <h3><?= $langArr['build'] ?></h3>
-                                            <!-- <p><?= $langArr['lorem_ipsum'] ?></p> -->
+                                            <p><?= $langArr['build_descrp'] ?></p>
                                         </div>
                                     </li>
                                     <li>
@@ -369,7 +369,7 @@ require_once 'language.php';
                                                 </span>
                                             </div>
                                             <h3><?= $langArr['test'] ?></h3>
-                                            <!-- <p><?= $langArr['lorem_ipsum'] ?></p> -->
+                                            <p><?= $langArr['test_descrp'] ?></p>
                                         </div>
                                     </li>
                                     <li>
@@ -388,7 +388,7 @@ require_once 'language.php';
                                                 </span>
                                             </div>
                                             <h3><?= $langArr['launch'] ?></h3>
-                                            <!-- <p><?= $langArr['lorem_ipsum'] ?></p> -->
+                                            <p><?= $langArr['launch_descrp'] ?></p>
                                         </div>
                                     </li>
                                 </ul>
@@ -436,20 +436,21 @@ require_once 'language.php';
                     <div class="ftr-address-main">
                         <div class="aurth-address">
                             <span>
-                                <svg width="16" height="21" viewBox="0 0 16 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8 6.51465C6.96438 6.51465 6.125 7.35402 6.125 8.38965C6.125 9.42527 6.96438 10.2646 8 10.2646C9.03562 10.2646 9.875 9.42527 9.875 8.38965C9.875 7.35402 9.03562 6.51465 8 6.51465ZM8 11.5146C6.27437 11.5146 4.875 10.1159 4.875 8.38965C4.875 6.6634 6.27437 5.26465 8 5.26465C9.72563 5.26465 11.125 6.6634 11.125 8.38965C11.125 10.1159 9.72563 11.5146 8 11.5146ZM8 0.889648C3.85813 0.889648 0.5 4.24777 0.5 8.38965C0.5 11.5259 6.75313 20.8965 8 20.8896C9.2275 20.8965 15.5 11.4834 15.5 8.38965C15.5 4.24777 12.1419 0.889648 8 0.889648Z" fill="white" />
-                                </svg>
+                            <svg width="27" height="23" viewBox="0 0 27 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 4.03711L9.53961 8.87572C12.6878 10.6595 14.018 10.6595 17.1663 8.87572L25.7059 4.03711" stroke="white" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M1.01948 13.272C1.10023 17.0589 1.14061 18.9523 2.53789 20.3549C3.93516 21.7575 5.87982 21.8063 9.76914 21.904C12.1662 21.9643 14.5397 21.9643 16.9367 21.904C20.8261 21.8063 22.7707 21.7575 24.168 20.3549C25.5653 18.9523 25.6056 17.0589 25.6864 13.272C25.7124 12.0544 25.7124 10.844 25.6864 9.62641C25.6056 5.83957 25.5653 3.94616 24.168 2.54357C22.7707 1.14097 20.8261 1.09211 16.9367 0.994392C14.5397 0.934164 12.1662 0.934161 9.76913 0.994384C5.87982 1.0921 3.93516 1.14095 2.53788 2.54355C1.14061 3.94614 1.10023 5.83956 1.01947 9.62639C0.993508 10.844 0.993509 12.0544 1.01948 13.272Z" stroke="white" stroke-width="1.5" stroke-linejoin="round"/>
+</svg>
                             </span>
-                            <p><?= $langArr['Location_Lorem_ipsum_dolor_sit_amet_consectetu'] ?></p>
+                            <p>info@aiviking.se</p>
                         </div>
-                        <div class="aurth-address">
+                        <!-- <div class="aurth-address">
                             <span>
                                 <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M1.49134 1.88964C2.11796 1.27471 2.85051 0.931396 3.65835 0.931396C3.97767 0.931396 4.30261 0.999213 4.59953 1.1409C4.90631 1.2833 5.18593 1.50134 5.40332 1.81408L7.3336 4.53473C7.50444 4.77228 7.6381 5.0047 7.73485 5.24002C7.8331 5.47065 7.90002 5.72843 7.90002 5.98973C7.90002 6.31212 7.8061 6.62025 7.63919 6.89755C7.49735 7.14626 7.30358 7.38612 7.07971 7.61058L6.50575 8.2072C6.51156 8.22092 6.51936 8.23948 6.5278 8.26098C6.65252 8.47965 6.87337 8.7874 7.20826 9.1834C7.57502 9.60715 7.96402 10.0365 8.38369 10.4645C8.82694 10.8994 9.24677 11.2946 9.67069 11.6546C10.0715 11.9936 10.3839 12.2098 10.6109 12.3332C10.6292 12.3411 10.6461 12.3488 10.6599 12.3551L11.2346 11.7879C11.4625 11.5602 11.7069 11.3596 11.9677 11.2202C12.2402 11.058 12.5373 10.9647 12.8667 10.9647C13.1166 10.9647 13.3635 11.0181 13.6117 11.1196C13.8474 11.2161 14.0783 11.3488 14.3098 11.5062L14.315 11.5098L17.0758 13.4698C17.3713 13.6751 17.6029 13.9351 17.7471 14.263L17.7514 14.2727L17.7554 14.2826C17.8615 14.5481 17.9334 14.8356 17.9334 15.1647C17.9334 15.5585 17.8456 15.9578 17.6652 16.34C17.5733 16.5346 17.4656 16.7248 17.3389 16.9097C17.2949 16.974 17.2486 17.0375 17.2 17.1001C17.1362 17.1826 17.0684 17.2634 16.9964 17.3427C16.8179 17.5395 16.6295 17.7183 16.4302 17.8777C16.1142 18.1306 15.7736 18.3329 15.4054 18.484C14.8269 18.7248 14.2038 18.8481 13.5417 18.8481C12.5929 18.8481 11.6011 18.6248 10.58 18.1897C9.57377 17.761 8.5746 17.1865 7.59052 16.47L7.58969 16.4694C6.60561 15.7506 5.67355 14.9552 4.78522 14.0755L4.78093 14.0712C3.90125 13.183 3.10566 12.2507 2.39475 11.2742L2.39264 11.2714C1.6873 10.2908 1.1126 9.30056 0.691437 8.30906L0.690662 8.30723C0.264345 7.29477 0.041687 6.3039 0.041687 5.33973C0.041687 4.6996 0.154687 4.07916 0.385737 3.50091C0.620745 2.90434 0.989879 2.36393 1.49134 1.88964Z" fill="white" />
                                 </svg>
                             </span>
                             <p><?= $langArr['Contact_us_123-4567-891'] ?></p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

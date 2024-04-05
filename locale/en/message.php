@@ -49,36 +49,24 @@ $langArr = [
     'PHASE_A' => 'PHASE A',
 
     'Specification_Planning' => 'Specification & Planning',
-    'Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incidi_dunt_ut_labore_et_dolore_magna_aliqua_enimad_min' => 'Lorem ipsum dolor sit amet, consectetur adipiscing
-    elit, sed do eiusmod tempor incidi dunt ut labore et
-    dolore magna aliqua. enim ad min',
+    'planning_descrp' => 'We help to  plan and outline the details for making websites and mobile apps.',
 
     'Estimates_Timelines' => 'Estimates & Timelines',
-    'Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incidi_dunt_ut_labore_et_dolore_magna_aliqua_enimad_min' => 'Lorem ipsum dolor sit amet, consectetur adipiscing
-    elit, sed do eiusmod tempor incidi dunt ut labore et
-    dolore magna aliqua. enim ad min',
+    'timelines_descrp' => 'Providing timelines and cost estimates tailored to your projects, ensuring efficient delivery and client satisfaction.',
 
     'Design_Wireframe_Prototype' => 'Design, Wireframe & Prototype',
-    'Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incidi_dunt_ut_labore_et_dolore_magna_aliqua_enimad_min' => 'Lorem ipsum dolor sit amet, consectetur adipiscing
-    elit, sed do eiusmod tempor incidi dunt ut labore et
-    dolore magna aliqua. enim ad min',
+    'prototype_descrp' => 'Crafting captivating designs, wireframes, and prototypes to elevate your project with creativity and precision.',
 
     'PHASE_B' => 'PHASE B',
 
     'build' => 'Build',
-    'Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incidi_dunt_ut_labore_et_dolore_magna_aliqua_enimad_min' => 'Lorem ipsum dolor sit amet, consectetur adipiscing
-    elit, sed do eiusmod tempor incidi dunt ut labore et
-    dolore magna aliqua. enim ad min',
+    'build_descrp' => 'We use our tech skills to build what you imagine.',
 
     'test' => 'Test',
-    'Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incidi_dunt_ut_labore_et_dolore_magna_aliqua_enimad_min' => 'Lorem ipsum dolor sit amet, consectetur adipiscing
-    elit, sed do eiusmod tempor incidi dunt ut labore et
-    dolore magna aliqua. enim ad min',
+    'test_descrp' => 'We test what we make to ensure it works well.',
 
     'launch' => 'Launch',
-    'Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incidi_dunt_ut_labore_et_dolore_magna_aliqua_enimad_min' => 'Lorem ipsum dolor sit amet, consectetur adipiscing
-    elit, sed do eiusmod tempor incidi dunt ut labore et
-    dolore magna aliqua. enim ad min',
+    'launch_descrp' => "After tireless efforts, we proudly launch the application and website you've eagerly anticipated.",
     'calendar' => 'Calendar',
     'Book_a' => 'Book a',
     'consultation' => 'Consultation',
@@ -92,5 +80,5 @@ $langArr = [
     'Location_Lorem_ipsum_dolor_sit_amet_consectetu' => 'Location : Lorem ipsum dolor sit amet, consectetur',
     'Contact_us_123-4567-891' => 'Contact us : 123-4567-891',
     'Innovative_AI_for_Your_Business_Needs' => 'Innovative AI for Your Business Needs',
-    'lorem_ipsum' => 'Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incidi dunt ut labore et dolore magna aliqua enim ad min',
+    'lorem_ispum' => 'Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incidi dunt ut labore et dolore magna aliqua enim ad min',
 ];
