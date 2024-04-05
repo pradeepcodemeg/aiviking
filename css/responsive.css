@@ -1,0 +1,389 @@
+@media screen and (max-width: 1024px) {
+   
+}
+
+@media screen and (max-width: 991px) {
+    main {
+        padding-top: 56px;
+    }
+    header {
+        box-shadow: 0px 0px 6px 0px rgb(48 45 45 / 10%);
+        backdrop-filter: saturate(180%) blur(15px);
+        position: fixed;
+        padding: 10px 0;
+    }
+    .htr-inner {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        background: #fff;
+        width: 90%;
+        max-width: 250px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        text-align: left;
+        padding-top: 0;
+        padding-left: 0;
+        box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+        z-index: 999;
+        transition: all 300ms;
+        height: 100vh;
+    }
+    body:not(.menu-open) .htr-inner {
+        transform: translateX(-120%);
+    }
+    body.menu-open .hdr-top .overlay {
+        opacity: 1;
+        visibility: visible;
+    }
+    nav ul {
+        flex-wrap: wrap;
+        max-height: 100%;
+        overflow: auto;
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+        gap: 0px;
+    }
+    nav ul li {
+        width: 100%;
+    }
+    nav ul li a {
+        padding: 10px 20px;
+        color: #000000;
+        border-bottom: unset;
+    }
+    nav ul li a:hover,
+    nav ul li.active a,
+    nav ul li a:focus {
+        color: #000;
+        border-bottom: unset;
+    }
+    nav ul li+li {
+        border-top: 1px solid #eee;
+    }
+    nav ul li a:before{
+        background-color: #FCE824;
+    }
+    .menu-icon, .close-menu {
+        display: block;
+    }
+    .ltscnct-btn {
+        display: none;
+    }
+    nav ul li:last-child {
+        display: block;
+    }
+    .bnr-inner60 {
+        width: 50%;
+    }
+    .bnr-inner40 {
+        width: 50%;
+    }
+    .bnr-description p {
+        font-size: 16px;
+    }
+    
+    .bnr-description h3 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    
+    .bnr-description p + h3 {
+        margin-top: 5px;
+    }
+    .bnr-description h3+h1 {
+        margin-top: 6px;
+    }
+    .bnr-description h1 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    
+    .bnr-description {
+        padding-right: 25px;
+    }
+    .top-heading h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .services-main ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .srvces-description h3 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .srvces-description h3 + h6 {
+        margin-top: 10px;
+    }
+    .srvces-description h6 + p {
+        margin-top: 6px;
+    }
+    .abt-contain h4 + h3 {
+        margin-top: 7px;
+    }
+    .abt-contain h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .abt-contain h6 + h4 {
+        margin-top: 10px;
+    }
+    
+    .abt-contain h4 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .abt-details {
+        align-items: flex-start;
+    }
+    .abt-description ul li + li {
+        margin-top: 15px;
+    }
+
+    .phase-tp-heading h3 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .phase-tp-heading.phase-frst-line {
+        margin-bottom: 20px;
+    }
+
+    .phase-list ul li+li {
+        margin-top: 25px;
+    }
+
+    .phase-card h3 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .phase-card h3+p {
+        margin-top: 5px;
+    }
+    .phase-tp-heading.phase-second-line h3 {
+        top: 7px;
+    }
+    .phase-wraqpper-max-width500 {
+        max-width: 450px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .phase-sequence h4 {
+        font-size: 24px;
+    }
+    .phase-sequence h4 span {
+        font-size: 22px;
+    }
+    .repeat-data {
+        left: -42px;
+        bottom: 27.2%;
+    }
+    .repeat-data .reptdata-box {
+        width: 42px;
+        height: 170px;
+    }
+    .clender-description h3 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .clender-description h6 + h3 {
+        margin-top: 10px;
+    }
+
+    .clender-btn a {
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aurth-address p {
+        color: #fff;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .services-section {
+        padding: 50px 0;
+    }
+    .about-section {
+        padding: 0px 0 50px;
+    }
+    .calendar-section {
+        padding: 50px 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    header.fixed{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        animation: topToBottom 300ms linear;
+        box-shadow: 0px 0px 6px 0px rgb(48 45 45 / 10%);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+    .services-main ul {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .srvces-description h3 + h6 {
+        margin-top: 3px;
+    }
+    .abt-main {
+        flex-wrap: wrap;
+    }
+    .abt-inner60 {
+        width: 100%;
+    }
+    .abt-inner40 {
+        width: 100%;
+    }
+
+    .abt-contain h3 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .abt-contain h4 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .abt-description {
+        margin-top: 25px;
+    }
+    .top-heading h3 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .phase-main {
+        padding-left: 60px;
+    }
+    
+    .phase-wraqpper-max-width500 {
+        max-width: 270px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .phase-main:before {
+        left: 25px;
+    }
+    
+    .repeat-data {
+        display: none;
+    }
+    
+    .phase-sequence {
+        left: -12px;
+    }
+    
+    .phase-sequence h4 {
+        font-size: 18px;
+    }
+    
+    .phase-sequence h4 span {
+        font-size: 16px;
+    }
+    
+    .phase-main .phase-inner .phase-list li:before {
+        left: 18px;
+        width: 16px;
+        height: 16px;
+    }
+    
+    .phase-second-line:before {
+        left: 26px;
+        top: 54.3%;
+        width: 28px;
+    }
+    
+    .phase-tp-heading h3 {
+        font-size: 18px;
+    }
+    
+    .phase-frst-line:after {
+        left: 26px;
+    }
+    
+    .phase-frst-line:before {
+        left: 25px;
+        width: 28px;
+    }
+    .calendar-main {
+        flex-wrap: wrap;
+    }
+    
+    .calendar-inner50 {
+        width: 100%;
+    }
+    
+    .clender-btn {
+        flex-wrap: wrap;
+    }
+    
+    .clender-btn a {
+        width: 100%;
+        height: 36px;
+    }
+    .clender-description h3 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .ftr-address-main {
+        margin-top: 20px;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .ftr-top {
+        padding: 30px 0;
+    }
+    .banner-section {
+        padding: 55px 0;
+    }
+    .aurth-address {
+        align-items: flex-start;
+    }
+    .bnr-description h1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .bnr-description h3 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .bnr-description {
+        padding-right: 0;
+    }
+    .bnr-main {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .bnr-inner60 {
+        width: 100%;
+    }
+    .bnr-inner40 {
+        width: 100%;
+    }
+    .hdr-logo a span img {
+        width: 100px;
+    }
+    .langue-main .select-box {
+        width: 92px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    
+}
+
+@media screen and (max-width: 375px) {
+    
+}

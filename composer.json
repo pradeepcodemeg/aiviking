@@ -1,0 +1,11 @@
+{
+    "name": "user/aiviking",
+    "autoload": {
+        "psr-4": {
+            "User\\Aiviking\\": "src/"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
